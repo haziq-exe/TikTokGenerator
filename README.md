@@ -31,7 +31,8 @@ TikTokGenerator produces the following types of TikToks:
 
 
 ### Reddit Horror Story Comments Slideshow
-   Displays a collection of creepy or horror-themed comments from Reddit in a slideshow format with atmospheric sound effects.
+   Displays a collection of creepy or horror-themed comments from Reddit in a slideshow format.
+   
    **NOTE:** These TikToks are not auto-uploaded as TikTok doesn't allow uploading slideshows from computers.
 
    <p align="center">
