@@ -1,6 +1,8 @@
 # TikTokGenerator
 
-**TikTokGenerator** is a Python-based project designed to showcase creative use cases for the [tiktokautouploader](https://github.com/haziq-exe/TikTokAutoUploader) library. This repository generates three types of TikToks, each with a unique theme and content format. While the code is public, it is not intended for users to clone and generate videos independently.
+**TikTokGenerator** is a Python-based project designed to showcase creative use cases for the [tiktokautouploader](https://github.com/haziq-exe/TikTokAutoUploader) library. This repository generates three types of TikToks, each with a unique theme and content format. 
+
+**While the code is public, it is not intended for users to clone and generate videos independently.**
 
 ## Features
 
@@ -8,13 +10,37 @@ TikTokGenerator produces the following types of TikToks:
 
 1. **Reddit TTS Story TikTok**  
    Generates TikToks that feature a story from Reddit, narrated with text-to-speech, combined with engaging visuals.
+   <p align="center">
+     <img src="READMEelements/RedditTTS.gif" alt="" width="200"/>
+   </p>
 
-2. **Will You Push The Button? Game TikTok**  
+   <p align="center">
+      <a href="https://www.tiktok.com/@u_redditstoriess">Account with full video examples</a>
+   </p>
+
+3. **Will You Push The Button? Game TikTok**  
    Creates a fun, decision-making game where viewers decide whether they would "push the button" based on an ethical dilemma or hypothetical situation.
 
-3. **Reddit Horror Story Comments Slideshow**  
+   <p align="center">
+     <img src="READMEelements/PUSHTHEBUTTON.gif" alt="" width="200" loops=infinite/>
+   </p>
+
+   <p align="center">
+      <a href="https://www.youtube.com/@BlueVsRedButton/shorts">Account with full video examples</a>
+   </p>
+
+
+4. **Reddit Horror Story Comments Slideshow**  
    Displays a collection of creepy or horror-themed comments from Reddit in a slideshow format with atmospheric sound effects.
    **NOTE:** These TikToks are not auto-uploaded as TikTok doesn't allow uploading slideshows from computers.
+
+   <p align="center">
+     <img src="READMEelements/Slideshows.gif" alt="" width="220"/>
+   </p>
+
+   <p align="center">
+      <a href="https://www.tiktok.com/@u_redditstoriess">Account with full video examples</a>
+   </p>
 
 ## Purpose
 
