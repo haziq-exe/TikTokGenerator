@@ -80,5 +80,3 @@ To explore how this code integrates with `tiktokautouploader`, refer to the [tik
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
-
-You can customize the links, installation details, or sections based on any specific tools or setup you have in mind! Let me know if you'd like any adjustments.
