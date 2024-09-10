@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+#Removed replacement_dict, it is essentially a hand-made dictionary that changes certain swearwords
 
 client_id = os.environ['REDDIT_CLIENTID']
 client_secret = os.environ['REDDIT_CLIENT_SECRET']
@@ -21,26 +22,26 @@ done_URLS = []
 
 
 def remove_after_word(text, word):
-    # Convert both text and word to lowercase for case-insensitive comparison
+    
     lower_text = text.lower()
     lower_word = word.lower()
 
-    # Check if the word is in the text
+    
     if lower_word in lower_text:
-        # Split the string at the specified word (using the original case text)
+     
         split_index = lower_text.index(lower_word)
         return text[:split_index].strip()
     else:
-        # If the word isn't found, return the original text
+     
         return text
     
-def split_into_chunks(input_string, chunk_size=15000):
+def split_into_chunks(input_string, chunk_size=15000): #Can be used to split into parts, however currently doesnt cause 15000 too big chunk size
     words = input_string.split()
     chunks = []
     current_chunk = ""
     
     for word in words:
-        # If adding the next word would exceed the chunk size, start a new chunk
+        
         if len(current_chunk) + len(word) + 1 > chunk_size:
             chunks.append(current_chunk)
             current_chunk = word
@@ -50,7 +51,7 @@ def split_into_chunks(input_string, chunk_size=15000):
             else:
                 current_chunk = word
     
-    # Add the last chunk
+    
     if current_chunk:
         if len(current_chunk) < 500:
             chunks[len(chunks) - 1] = chunks[len(chunks) - 1] + " " + current_chunk
@@ -67,8 +68,8 @@ def remove_links(text):
 
 
 def replace_integer_with_dot(text):
-    # Define the regex pattern to find an integer followed by F or M
-    pattern = r'(\d+)\s*([FfMm])'  # \d+ matches one or more digits; \s* allows for optional spaces
+    
+    pattern = r'(\d+)\s*([FfMm])'  
     
     def replacement(match):
         return f"{match.group(1)}.{match.group(2).upper()}"
@@ -77,13 +78,13 @@ def replace_integer_with_dot(text):
     
     return modified_text
 
-def replace_words(text, replacements): #Function to make the dictionary case-insensitive
+def replace_words(text, replacements): 
     def replace(match):
-        # Get the original word from the match and check its case
+        
         word = match.group(0)
-        # Use the original casing of the matched word
+        
         replacement = replacements[match.group(0).lower()]
-        # Preserve the original case of the matched word
+        
         if word.isupper():
             return replacement.upper()
         elif word[0].isupper():
@@ -96,9 +97,7 @@ def replace_words(text, replacements): #Function to make the dictionary case-ins
     boundary_keys = [key for key in replacements.keys() if key != exclude_boundary]
     boundary_pattern = r'\b(' + '|'.join(re.escape(key) for key in boundary_keys) + r')\b'
 
-    # Create a regex pattern for the keys in the replacements dictionary
-    #pattern = re.compile('|'.join(re.escape(key) for key in replacements.keys()), re.IGNORECASE)
-
+   
     if exclude_boundary:
         non_boundary_pattern = re.escape(exclude_boundary)
         pattern = re.compile(boundary_pattern + '|' + non_boundary_pattern, re.IGNORECASE)
@@ -107,7 +106,7 @@ def replace_words(text, replacements): #Function to make the dictionary case-ins
 
 
 
-    # Substitute the matches in the text
+    
     return pattern.sub(replace, text)
 
 def fetch(total_posts, subreddit=['AmITheAsshole'], time='year', url_file=None):
