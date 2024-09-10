@@ -71,48 +71,4 @@ def load_comments(numofcomments):
     
 
 
-replacement_dict = {
-    "fuck": "f**k",
-    "shit":"sh*t",
-    "asshole":"as*hole",
-    "retard" : "ret**d",
-    "bitch": "b**tch",
-    "rape":"r**e",
-    "kill":"k*ll",
-    "murder":"m**der",
-    "sexually":"s*xually",
-    "assaulted": "as**ulted",
-    'beat': 'b*at',
-    'nude': 'n*de',
-    'blood':'bl*od',
-    'suicide':'su**ide',
-    'die':'d*e',
-    'porn':'p*rn',
-    'torture': 't*rture',
-    'maimed': 'm*imed',
-    'rapist': 'rap*st',
-    'slit': 's.l.i.t',
-    'cannibal': 'cann*bal',
-}
-
-
-
-
-
-
-
-
-
-
-# post_id = '6qi5mb'
-# post = reddit.submission(id=post_id)
-# content = post.selftext
-
-# urls = re.findall(r'(https?://[^\s]+)', content)
-# cleaned_urls = [url.rstrip(')') for url in urls]
-
-# for url in urls:
-#     url = url[:len(url) - 1]
-#     with open('/Users/haziq/Desktop/TikTokGenerator/PostManagement/SlideshowPosts.txt', 'a') as write_file:
-#         write_file.write(url + '\n')
-
+replacement_dict =  #removed but is essentially dictionary that changes swearwords
