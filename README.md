@@ -22,7 +22,7 @@ TikTokGenerator produces the following types of TikToks:
    Creates a fun, decision-making game where viewers decide whether they would "push the button" based on an ethical dilemma or hypothetical situation.
 
    <p align="center">
-     <img src="READMEelements/PUSHTHEBUTTON.gif" alt="" width="200" loops=infinite/>
+     <img src="READMEelements/WillYouPushTheButton.gif" alt="" width="200" loops=infinite/>
    </p>
 
    <p align="center">
