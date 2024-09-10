@@ -8,7 +8,7 @@
 
 TikTokGenerator produces the following types of TikToks:
 
-1. **Reddit TTS Story TikTok**  
+### Reddit TTS Story  
    Generates TikToks that feature a story from Reddit, narrated with text-to-speech, combined with engaging visuals.
    <p align="center">
      <img src="READMEelements/RedditTTS.gif" alt="" width="200"/>
@@ -18,7 +18,7 @@ TikTokGenerator produces the following types of TikToks:
       <a href="https://www.tiktok.com/@u_redditstoriess">Account with full video examples</a>
    </p>
 
-3. **Will You Push The Button? Game TikTok**  
+### Will You Push The Button?
    Creates a fun, decision-making game where viewers decide whether they would "push the button" based on an ethical dilemma or hypothetical situation.
 
    <p align="center">
@@ -30,7 +30,7 @@ TikTokGenerator produces the following types of TikToks:
    </p>
 
 
-4. **Reddit Horror Story Comments Slideshow**  
+### Reddit Horror Story Comments Slideshow
    Displays a collection of creepy or horror-themed comments from Reddit in a slideshow format with atmospheric sound effects.
    **NOTE:** These TikToks are not auto-uploaded as TikTok doesn't allow uploading slideshows from computers.
 
