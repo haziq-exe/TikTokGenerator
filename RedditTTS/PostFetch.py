@@ -5,12 +5,12 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-# Replace these with your own credentials
+
 client_id = os.environ['REDDIT_CLIENTID']
 client_secret = os.environ['REDDIT_CLIENT_SECRET']
 user_agent = os.environ['REDDIT_USER']
 
-# Initialize the Reddit instance
+
 reddit = praw.Reddit(
     client_id= client_id,
     client_secret= client_secret,
@@ -19,50 +19,6 @@ reddit = praw.Reddit(
 
 done_URLS = []
 
-replacement_dict = {
-    "aita": "A.I.T.A",
-    "fuck": "frick",
-    "fucking": "firetrucking",
-    "fucked": "fricked",
-    "kill": "unalive",
-    "killed":"unalived",
-    "shit":"poo",
-    "shitting": "pooing",
-    "asshole": "buttocks",
-    "ass": "buttocks",
-    r"\\'": "'",
-    "gun": "pew pew",
-    "guns": "pew pews",
-    "aitah": "A.I.T.A",
-    "death": "unaliving",
-    "dead": "unalived",
-    "sex": "S.E.X",
-    # "drugs":"medicine",
-    "sexual":"S.E.X",
-    "murderer":"unaliver",
-    "murder":"unaliving",
-    "murdered":"unalived",
-    "motherfucker": "firetrucker",
-    "motherfuckers":"firetruckers",
-    "assholes":"buttockses",
-    "tifu":'today I messed up',
-    "porn": "corn",
-    "dick": "penis",
-    "cum": "goon",
-    "cummed": "gooned",
-    "comitted suicide" : "unalived themselves",
-    "orgasm":"climax",
-    "orgasms": "climaxes",
-    "orgasmed":"climaxed",
-    "peg": "p.e.g",
-    "pegging": "p.e.g.ing",
-    "bondage": "bandage",
-    "lube": "lotion",
-    "rape": "grape",
-    "kidnap" : "take",
-    "kidnapped": "taken",
-    "raped": "graped",
-}
 
 def remove_after_word(text, word):
     # Convert both text and word to lowercase for case-insensitive comparison
