@@ -59,7 +59,7 @@ Each type of TikTok content follows its own unique pipeline:
 
 2. **Will You Push The Button?**: 
    - Fetches scenarios from [Will You Press The Button?](https://willyoupressthebutton.com)
-   - Uses LLM to create Image generation prompts that will be fed into text to image AI
+   - Uses LLM to create image generation prompts, based off the scenarios, that will be fed into text to image AI
    - Feeds afore-mentioned prompts into text to image AI and generates Images
    - Creates text for each scenario
    - Generates a video with background visuals, audio and text
