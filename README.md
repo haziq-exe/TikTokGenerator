@@ -71,12 +71,6 @@ Each type of TikTok content follows its own unique pipeline:
 
 ## Installation & Usage
 
-While the code is public, the repository is not structured to allow cloning and direct use for generating videos.
+While the code is public, the repository is not structured to allow cloning and direct use for generating videos. You are more than welcome to go through the code though.
 
 To explore how this code integrates with `tiktokautouploader`, refer to the [tiktokautouploader documentation](https://github.com/haziq-exe/TikTokAutoUploader).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
----
