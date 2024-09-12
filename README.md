@@ -8,16 +8,6 @@
 
 TikTokGenerator produces the following types of TikToks:
 
-### Reddit TTS Story  
-   Generates TikToks that feature a story from Reddit, narrated with text-to-speech, combined with engaging visuals.
-   <p align="center">
-     <img src="READMEelements/RedditTTS.gif" alt="" width="200"/>
-   </p>
-
-   <p align="center">
-      <a href="https://www.tiktok.com/@u_redditstoriess">Account with full video examples</a>
-   </p>
-
 ### Will You Push The Button?
    Creates a fun, decision-making game where viewers decide whether they would "push the button" based on an ethical dilemma or hypothetical situation.
 
@@ -27,6 +17,16 @@ TikTokGenerator produces the following types of TikToks:
 
    <p align="center">
       <a href="https://www.youtube.com/@BlueVsRedButton/shorts">Account with full video examples</a>
+   </p>
+
+### Reddit TTS Story  
+   Generates TikToks that feature a story from Reddit, narrated with text-to-speech, combined with engaging visuals.
+   <p align="center">
+     <img src="READMEelements/RedditTTS.gif" alt="" width="200"/>
+   </p>
+
+   <p align="center">
+      <a href="https://www.tiktok.com/@u_redditstoriess">Account with full video examples</a>
    </p>
 
 
