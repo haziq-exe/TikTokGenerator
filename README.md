@@ -63,6 +63,7 @@ Each type of TikTok content follows its own unique pipeline:
    - Feeds afore-mentioned prompts into text to image AI and generates Images
    - Creates text for each scenario
    - Generates a video with background visuals, audio and text
+   - Speeds up video to be less than 60 seconds
    - Uploads to shorts using Google's Youtube Uploader API
    - Can also be uploaded directly to TikTok with the [tiktokautouploader](https://github.com/haziq-exe/TikTokAutoUploader) library
 
