@@ -2,7 +2,7 @@
 
 **TikTokGenerator** is a Python-based project designed to showcase creative use cases for the [tiktokautouploader](https://github.com/haziq-exe/TikTokAutoUploader) library. This repository generates three types of TikToks, each with a unique theme and content format. 
 
-**While the code is public, it is not intended for users to clone and generate videos independently.**
+**While the code is public, it is not designed for users to be able to clone and generate videos independently.**
 
 ## Features
 
