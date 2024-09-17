@@ -26,7 +26,7 @@ TikTokGenerator produces the following types of TikToks:
    </p>
 
    <p align="center">
-      <a href="https://www.tiktok.com/@u_redditstoriess">Account with full video examples</a>
+      <a href="https://www.tiktok.com/@videos_exe">Account with full video examples</a>
    </p>
 
 
@@ -40,7 +40,7 @@ TikTokGenerator produces the following types of TikToks:
    </p>
 
    <p align="center">
-      <a href="https://www.tiktok.com/@u_redditstoriess">Account with full video examples</a>
+      <a href="https://www.tiktok.com/@videos_exe">Account with full video examples</a>
    </p>
 
 ## Purpose
